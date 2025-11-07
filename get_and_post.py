@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 
-app = FastAPI()
+app = FastAPI() 
 
 # 用于POST的数据模型
 class User(BaseModel):
