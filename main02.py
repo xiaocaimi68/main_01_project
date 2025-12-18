@@ -1,8 +1,8 @@
 #创建 API 接口，接收客户端发来的请求
 from fastapi import FastAPI
 
-app = FastAPI()
 
+app = FastAPI()
 @app.get("/query1")
 def read(page,id):
     return {"page":page,"limit": id}
