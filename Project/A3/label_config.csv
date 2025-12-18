@@ -1,0 +1,5 @@
+entity,tag,role,weight
+BBQ_Kit,BBQ_Lead_Beer,lead,0.3
+Beer,BBQ_Lead_Beer,follow,1.0
+Cola_1L,Cola_Substitute,both,-0.2
+Cola_500ml,Cola_Substitute,both,-0.2
